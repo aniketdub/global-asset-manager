@@ -1,6 +1,6 @@
 # MetroPT-3 Industrial Telemetry Predictive Maintenance & Financial ROI Engine
 
-> **Resume Project Highlight:**  
+> **System Specification:**  
 > *"Engineered a predictive maintenance dashboard using an Isolation Forest anomaly detection model on UCI MetroPT-3 industrial telemetry data to predict catastrophic equipment failure and dynamically quantify the financial ROI of preemptive maintenance versus unplanned downtime."*
 
 ---

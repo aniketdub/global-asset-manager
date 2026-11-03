@@ -19,7 +19,7 @@ export const Header: React.FC<HeaderProps> = ({
     { id: 'simulator', label: 'Fault Injection Simulator' },
     { id: 'isolation-forest', label: 'Isolation Forest Mechanics' },
     { id: 'roi', label: 'Financial ROI Engine' },
-    { id: 'resume', label: 'Resume & Architecture Guide' },
+    { id: 'architecture', label: 'System Architecture & FAQ' },
   ];
 
   return (

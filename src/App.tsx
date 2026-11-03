@@ -5,7 +5,7 @@ import { TelemetryCharts } from './components/TelemetryCharts';
 import { FaultSimulator } from './components/FaultSimulator';
 import { IsolationForestExplainer } from './components/IsolationForestExplainer';
 import { RoiCalculator } from './components/RoiCalculator';
-import { ResumeDeepDive } from './components/ResumeDeepDive';
+import { SystemArchitectureFAQ } from './components/SystemArchitectureFAQ';
 import { METROPT3_TELEMETRY } from './data/metropt3Data';
 import { Activity, GitBranch, Shield, Heart } from 'lucide-react';
 
@@ -56,7 +56,7 @@ export function App() {
 
         {activeTab === 'roi' && <RoiCalculator />}
 
-        {activeTab === 'resume' && <ResumeDeepDive />}
+        {activeTab === 'architecture' && <SystemArchitectureFAQ />}
       </main>
 
       {/* Footer */}
