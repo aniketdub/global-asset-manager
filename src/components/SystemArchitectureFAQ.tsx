@@ -1,23 +1,9 @@
 import React from 'react';
-import { Database, Code2, ShieldCheck, DollarSign, HelpCircle, Layers } from 'lucide-react';
+import { Database, Code2, ShieldCheck, DollarSign, HelpCircle } from 'lucide-react';
 
 export const SystemArchitectureFAQ: React.FC = () => {
   return (
     <div className="space-y-6">
-      {/* System Mission Card */}
-      <div className="bg-gradient-to-r from-slate-900 via-slate-900/90 to-cyan-950/40 border border-slate-800 rounded-xl p-6">
-        <span className="text-xs font-semibold text-cyan-400 tracking-wider uppercase mb-2 block flex items-center gap-1.5">
-          <Layers className="w-4 h-4" />
-          System Mission & Engineering Overview
-        </span>
-        <blockquote className="text-base sm:text-lg font-medium text-white italic border-l-4 border-cyan-500 pl-4 py-1 leading-relaxed">
-          &ldquo;Predictive maintenance telemetry dashboard using an Isolation Forest anomaly detection model on UCI MetroPT-3 industrial data to predict catastrophic equipment failure and dynamically quantify the financial ROI of preemptive maintenance versus unplanned downtime.&rdquo;
-        </blockquote>
-        <p className="text-xs text-slate-400 mt-3 m-0">
-          This documentation outlines the complete technical specifications, data engineering pipelines, mathematical modeling principles, and operational failure mitigation protocols.
-        </p>
-      </div>
-
       {/* Core Architectural Pillars */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Pillar 1 */}
